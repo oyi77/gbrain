@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="48" y2="48">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="48" y2="48">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="24" y1="8" x2="24" y2="40">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="48" height="48" rx="10" fill="#0f172a"/>
+  <!-- Brain outline - left hemisphere -->
+  <path d="M24 12C20 12 16 14 14 18C12 22 13 26 15 29C17 32 20 34 24 35" stroke="url(#g3)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Brain outline - right hemisphere -->
+  <path d="M24 12C28 12 32 14 34 18C36 22 35 26 33 29C31 32 28 34 24 35" stroke="url(#g3)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Brain center fold -->
+  <path d="M24 14C24 14 22 20 24 26C26 32 24 35 24 35" stroke="url(#g3)" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- Neural folds left -->
+  <path d="M16 19C18 18 20 20 22 19" stroke="url(#g3)" stroke-width="1.2" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M15 25C17 24 19 26 22 25" stroke="url(#g3)" stroke-width="1.2" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <!-- Neural folds right -->
+  <path d="M26 19C28 18 30 20 32 19" stroke="url(#g3)" stroke-width="1.2" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <path d="M26 25C28 24 30 26 33 25" stroke="url(#g3)" stroke-width="1.2" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <!-- Neural network dots -->
+  <circle cx="14" cy="18" r="2" fill="#22d3ee" opacity="0.6"/>
+  <circle cx="34" cy="18" r="2" fill="#22d3ee" opacity="0.6"/>
+  <circle cx="15" cy="29" r="1.5" fill="#22d3ee" opacity="0.4"/>
+  <circle cx="33" cy="29" r="1.5" fill="#22d3ee" opacity="0.4"/>
+  <!-- "G" letter overlay -->
+  <text x="24" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="14" fill="white" opacity="0.15">G</text>
+  <!-- Pulse ring -->
+  <circle cx="24" cy="24" r="20" stroke="#22d3ee" stroke-width="0.8" fill="none" opacity="0.15"/>
+</svg>
